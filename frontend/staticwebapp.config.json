@@ -7,13 +7,10 @@
       }
     ],
     "navigationFallback": {
-      "rewrite": "/dist/index.html",
+      "rewrite": "dist/index.html",
       "exclude": [
         "*.{css,scss,js,png,gif,ico,jpg,svg}"
       ]
-    },
-    "platform": {
-        "apiRuntime": "node:18"
     }
   }
   
